@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.body-style {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.div-2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-3 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1 {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background: blue;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-2 {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background: red;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-3 {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background: green;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-2:disabled {
+  background: rgb(154, 152, 152);
+  cursor: not-allowed;
+}
